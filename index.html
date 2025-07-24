@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link id='favicon' rel="shortcut icon" href='images/monkey.png'>
+    <title>Monkey Tool</title>
+    <link rel="stylesheet" href="https://myekul.github.io/shared-assets/styles.css">
+    <link rel="stylesheet" href="https://myekul.github.io/shared-assets/myekul/myekul.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://myekul.github.io/shared-assets/utils.js"></script>
+</head>
+
+<body>
+    <div id="bodyContent">
+        <header>
+            <div class="container" style="gap:10px;padding-top:10px">
+                <img src="images/monkey.png" style="height:80px">
+                <div id="title"></div>
+            </div>
+        </header>
+        <main>
+            <div>
+                <div class="container" style="padding:30px 0;gap:30px">
+                    <div id="tableDiv"></div>
+                    <div>
+                        <div class="container"><img src="images/mdhr.png" style="height:50px"></div>
+                        <div id="buttons">
+                            <div class="container">
+                                <div class="button" onclick="createTable(16)">1-6</div>
+                                <div class="button" onclick="createTable(17)">1-7</div>
+                            </div>
+                            <div class="container">
+                                <div class="button" onclick="createTable(25)">2-5</div>
+                                <div class="button" onclick="createTable(210)">2-10</div>
+                            </div>
+                            <div class="container">
+                                <div class="button" onclick="createTable(39)">3-9</div>
+                                <div class="button" onclick="createTable(312)">3-12</div>
+                            </div>
+                            <div class="container">
+                                <div class="button" onclick="createTable(49)">4-9</div>
+                            </div>
+                            <div class="container">
+                                <div class="button" onclick="createTable(512)">5-12</div>
+                            </div>
+                            <div class="container">
+                                <div class="button" onclick="createTable(69)">6-9</div>
+                                <div class="button" onclick="createTable(611)">6-11</div>
+                            </div>
+                            <div class="container">
+                                <div class="button" onclick="createTable(79)">7-9</div>
+                            </div>
+                            <div class="container">
+                                <div class="button" onclick="createTable(811)">8-11</div>
+                            </div>
+                            <div class="container" style="justify-content: center;">
+                                <div class="button banner" style="font-size:100%;width:100px" onclick="createTable()">
+                                    Reset</div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="container" style="gap:50px;padding:20px 0">
+                    <img src="images/screenshot.png" style="height:200px">
+                    <div style="width:700px;white-space: normal;">
+                        <div>
+                            The Mr. Chimes fight expects the player to match the cards to finish the level.
+                            The arrangement of the cards is randomized upon level entry.
+                        </div>
+                        <br>
+                        <div>
+                            However, these card patterns are not entirely random.
+                            There are 12 predetermined card arrangements, and it's possible to decipher the pattern by
+                            looking at just 2 cards.
+                        </div>
+                        <br>
+                        <div>
+                            Before the fight begins, the cards are revealed for around three seconds.
+                            Take this opportunity to identify the locations of the two MDHR crest cards.
+                            Determine their numeric positions on the board, counting from left to right and top to
+                            bottom.
+                            In the example on the left, the code is "7-9".
+                        </div>
+                        <br>
+                        <div>
+                            Then, press the corresponding button above.
+                            This will reveal the card arrangement.
+                        </div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer></footer>
+    </div>
+</body>
+
+<script src="main.js"></script>
+
+</html>

@@ -1,0 +1,48 @@
+body {
+    white-space: nowrap;
+    background: repeating-linear-gradient(45deg,
+            var(--background1),
+            var(--background1) 10px,
+            var(--background2) 10px,
+            var(--background2) 20px);
+}
+
+td {
+    width: 150px;
+    height: 100px;
+    background-color: var(--banner);
+}
+
+.button {
+    width: 70px;
+    height: 25px;
+    font-size: 110%
+}
+
+#buttons .container {
+    justify-content: left;
+}
+
+.mdhrCrest {
+    background-color: white
+}
+
+.mdhrOther {
+    background-color: black;
+}
+
+.cuphead {
+    background-color: crimson;
+}
+
+.mugman {
+    background-color: dodgerblue;
+}
+
+.diceLeft {
+    background-color: limegreen;
+}
+
+.diceRight {
+    background-color: var(--banner);
+}
