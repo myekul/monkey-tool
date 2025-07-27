@@ -1,10 +1,5 @@
-body {
-    white-space: nowrap;
-    background: repeating-linear-gradient(45deg,
-            var(--background1),
-            var(--background1) 10px,
-            var(--background2) 10px,
-            var(--background2) 20px);
+:root {
+    --banner: var(--monkey)
 }
 
 td {
@@ -31,7 +26,7 @@ td {
     background-color: black;
 }
 
-.cuphead {
+.cuphead1 {
     background-color: crimson;
 }
 
@@ -44,5 +39,5 @@ td {
 }
 
 .diceRight {
-    background-color: var(--banner);
+    background-color: var(--cuphead);
 }

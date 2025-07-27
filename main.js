@@ -3,7 +3,7 @@ setFooter('2025')
 const map = {
     1: 'mdhrCrest',
     2: 'mdhrOther',
-    3: 'cuphead',
+    3: 'cuphead1',
     4: 'mugman',
     5: 'diceLeft',
     6: 'diceRight',
