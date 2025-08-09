@@ -45,3 +45,8 @@ function createTable(code) {
     document.getElementById('tableDiv').innerHTML = HTMLContent
 }
 createTable()
+function openInfo() {
+    fetch('info.html')
+        .then(r => r.text())
+        .then(t => openModal(t, 'INFO'))
+}
