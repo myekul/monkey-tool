@@ -1,5 +1,7 @@
 setTitle('MONKEY TOOL')
 setFooter('2025')
+setCupheadProjects()
+document.documentElement.style.setProperty('--banner', getColorFromClass('monkey'));
 const map = {
     1: 'mdhrCrest',
     2: 'mdhrOther',
