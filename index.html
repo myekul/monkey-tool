@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
 
 <head>
     <link id='favicon' rel="shortcut icon" href='images/monkey.png'>
     <title>Monkey Tool</title>
-    <link rel="stylesheet" href="https://myekul.github.io/shared-assets/styles.css">
-    <link rel="stylesheet" href="https://myekul.github.io/shared-assets/cuphead/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://myekul.github.io/shared-assets/styles/styles.css">
+    <link rel="stylesheet" href="https://myekul.github.io/shared-assets/cuphead/cuphead.css">
     <link rel="stylesheet" href="https://myekul.github.io/shared-assets/myekul/myekul.css">
     <link rel="stylesheet" href="styles.css">
     <script src="https://myekul.github.io/shared-assets/utils.js"></script>
@@ -15,15 +15,17 @@
 <body>
     <div id="bodyContent">
         <header>
-            <div class="container" style="gap:10px;padding-top:10px">
-                <img src="images/monkey.png" style="height:80px">
+            <div class="container" style="gap:10px;padding-top:5px">
+                <img src="images/monkey.png" style="height:70px">
                 <div id="title"></div>
-                <div class="button font2" onclick="openInfo()"
-                    style="font-size:150%;width:100px;height:30px;position:absolute;right:15px;top:5px">INFO</div>
             </div>
         </header>
+        <div id="headerRow" class="container" style="margin:0;gap:8px">
+            <i class="fa fa-info-circle grow" onclick="openInfo()"></i>
+        </div>
+        <div id="progress"></div>
         <main>
-            <div>
+            <div id="tool">
                 <div class="container" style="padding:50px 0;gap:30px">
                     <div id="tableDiv"></div>
                     <div>

@@ -18,7 +18,7 @@ td {
     background-color: var(--banner);
 }
 
-.button {
+#buttons .button {
     width: 70px;
     height: 28px;
     font-size: 130%
@@ -50,4 +50,8 @@ td {
 
 .diceRight {
     background-color: var(--cuphead);
+}
+
+header{
+    height:80px
 }
