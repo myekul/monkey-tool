@@ -2,7 +2,6 @@ setTitle('MONKEY TOOL')
 setFooter('2025')
 setCupheadProjects()
 setAudio('cuphead')
-setDiscord()
 document.documentElement.style.setProperty('--banner', getColorFromClass('monkey'));
 const map = {
     1: 'mdhrCrest',

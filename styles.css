@@ -8,11 +8,11 @@ main {
     justify-content: center;
 }
 
-table {
+#tableDiv table {
     border-spacing: 3px
 }
 
-td {
+#tableDiv td {
     width: 200px;
     height: 150px;
     background-color: var(--banner);
@@ -50,8 +50,4 @@ td {
 
 .diceRight {
     background-color: var(--cuphead);
-}
-
-header{
-    height:80px
 }
